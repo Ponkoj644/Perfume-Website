@@ -1,0 +1,14 @@
+{
+  "name": "perfume-website",
+  "version": "1.0.0",
+  "description": "Responsive Perfume Website using Tailwind CSS.",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tailwindcss -i ./input.css -o ./output.css --watch"
+  },
+  "author": "Ponkoj Mondol",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.9"
+  }
+}

@@ -1,0 +1,25 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Tailwind CCS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom classes */
+
+body {
+  @apply bg-bodyColor font-Jost text-textColor tracking-wider overflow-x-hidden;
+}
+
+section {
+  @apply py-16 md:py-28;
+}
+
+.nav-link {
+  @apply text-lg font-bold hover:text-titleColor duration-200;
+}
+
+.active {
+  @apply text-titleColor;
+}
