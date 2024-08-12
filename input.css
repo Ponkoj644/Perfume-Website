@@ -20,6 +20,18 @@ section {
   @apply text-lg font-bold hover:text-titleColor duration-200;
 }
 
+/* active */
+
 .active {
   @apply text-titleColor;
 }
+
+/* button */
+
+.btn {
+  @apply border border-titleColor text-lg  lg:text-2xl font-bold px-5 py-3 duration-200;
+}
+.btn:hover {
+  @apply  bg-titleColor rounded  
+}
+
