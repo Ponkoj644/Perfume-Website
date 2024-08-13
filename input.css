@@ -32,6 +32,22 @@ section {
   @apply border border-titleColor text-lg  lg:text-2xl font-bold px-5 py-3 duration-200;
 }
 .btn:hover {
-  @apply  bg-titleColor rounded  
+  @apply bg-titleColor rounded;
 }
 
+.title {
+  @apply text-4xl font-bold font-DancingScript inline-block;
+}
+
+.subtitle {
+  @apply text-3xl md:text-4xl lg:text-5xl font-bold;
+}
+
+.cardtitle{
+  @apply text-2xl md:text-3xl font-bold;
+}
+
+/* hidden */
+.hidden {
+  @apply invisible;
+}
