@@ -31,8 +31,12 @@ section {
 .btn {
   @apply border border-titleColor text-lg  lg:text-2xl font-bold px-5 py-3 duration-200;
 }
-.btn:hover {
-  @apply bg-titleColor rounded;
+.btn2 {
+  @apply border  text-lg  lg:text-xl font-bold px-3 py-2 duration-200;
+}
+.btn:hover,
+.btn2:hover {
+  @apply bg-titleColor rounded scale-95;
 }
 
 .title {
@@ -43,8 +47,12 @@ section {
   @apply text-3xl md:text-4xl lg:text-5xl font-bold;
 }
 
-.cardtitle{
+.cardtitle {
   @apply text-2xl md:text-3xl font-bold;
+}
+
+.cardtitle-2 {
+  @apply text-xl md:text-2xl lg:text-3xl font-bold;
 }
 
 /* hidden */
