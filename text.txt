@@ -75,4 +75,4 @@ Subscribe
 Copyright &copy; 2024 LightCode. All rights reserved.
 
 
-time: 36:31 min
+time: 43:37 min
