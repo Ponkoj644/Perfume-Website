@@ -610,6 +610,10 @@ video {
   position: relative;
 }
 
+.-bottom-1\/2{
+  bottom: -50%;
+}
+
 .-bottom-3{
   bottom: -0.75rem;
 }
@@ -656,14 +660,6 @@ video {
 
 .top-\[40\%\]{
   top: 40%;
-}
-
-.-bottom-1{
-  bottom: -0.25rem;
-}
-
-.-bottom-1\/2{
-  bottom: -50%;
 }
 
 .-z-10{
@@ -722,10 +718,6 @@ video {
 
 .grid{
   display: grid;
-}
-
-.hidden{
-  display: none;
 }
 
 .h-16{
@@ -1223,12 +1215,6 @@ section{
   }
 }
 
-/* hidden */
-
-.hidden{
-  visibility: hidden;
-}
-
 .hover\:-translate-y-2:hover{
   --tw-translate-y: -0.5rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -1455,6 +1441,10 @@ section{
 
   .xl\:text-\[180px\]{
     font-size: 180px;
+  }
+
+  .xl\:text-\[260px\]{
+    font-size: 260px;
   }
 
   .xl\:text-\[65px\]{

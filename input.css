@@ -58,8 +58,3 @@ section {
 .cardtitle-2 {
   @apply text-xl md:text-2xl lg:text-3xl font-bold;
 }
-
-/* hidden */
-.hidden {
-  @apply invisible;
-}
