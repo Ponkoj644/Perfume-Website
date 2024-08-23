@@ -67,7 +67,7 @@ const sr = ScrollReveal({
 });
 
 sr.reveal(
-  `.hero_text, .collection_heading, .popular_headding, .about_heading, .footer_content`
+  // `.hero_text, .collection_heading, .popular_headding, .about_heading, .footer_content`
 );
 sr.reveal(`.hero_image`, { origin: "bottom", delay: 500 });
 sr.reveal(`.hero_content , .popular_card_3`, { origin: "bottom", delay: 100 });

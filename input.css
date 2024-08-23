@@ -58,3 +58,12 @@ section {
 .cardtitle-2 {
   @apply text-xl md:text-2xl lg:text-3xl font-bold;
 }
+
+.hidden {
+  @apply invisible;
+}
+
+.social-icon {
+  @apply  w-10 h-10 rounded-full font-thin border hover:border-transparent  flex justify-center items-center  hover:bg-cardColor hover:scale-110 transition duration-200 ;
+}
+
